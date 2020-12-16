@@ -1,7 +1,6 @@
 import React from "react";
 
 export default class TrafficLight extends React.Component {
-	
 	constructor() {
 		super();
 		this.state = {
@@ -20,17 +19,18 @@ export default class TrafficLight extends React.Component {
 				<div id="trafficTop" />
 				<div id="container">
 					<div
-						className={"red light" + redExtraClass}
+						className={"red light " + redExtraClass}
 						onClick={() => this.setState({ selectedLight: "red" })}
 					/>
 					<div
-						className={"yellow light" + yellowExtraClass}
+						className={"yellow light " + yellowExtraClass}
 						onClick={() =>
 							this.setState({ selectedLight: "yellow" })
 						}
 					/>
+
 					<div
-						className={"green light" + greenExtraClass}
+						className={"green light " + greenExtraClass}
 						onClick={() =>
 							this.setState({ selectedLight: "green" })
 						}

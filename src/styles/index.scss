@@ -1,11 +1,12 @@
-
 #trafficTop{
-background-color: block;
-width: 10px;
-height: 70px;
-margin-left: 82px;
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left:82px ;
+}
+
 #container{
-    background-color: block;
+    background-color: black;
     width: 56px;
     height: 178px;
     margin-left: 50px;
@@ -19,8 +20,8 @@ margin: auto;
 border-radius: 50%;
 padding: 4px;
 cursor: pointer;
-&red{background-color: red;}
-&yellow{background-color: yellow;}
-&green{background-color: green;}
-&selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}
-}}
+&.red{background-color: red;}
+&.yellow{background-color: yellow;}
+&.green{background-color: green;}
+&.selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
